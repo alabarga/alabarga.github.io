@@ -1,0 +1,12 @@
+# Ruby Gems
+*.gem
+
+# Design Files
+*.psd
+*.ai
+
+# IntelliJ
+.idea
+
+# MacOS
+.DS_Store

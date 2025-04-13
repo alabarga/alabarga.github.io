@@ -2,10 +2,10 @@
 title               : Alberto Labarga
 description         : >-
                       I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      data into insights
+                      and problems into opportunities.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : alabarga      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -20,33 +20,31 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
   name              : Alberto Labarga
   image             : https://media.licdn.com/dms/image/v2/C5603AQHZiPQlh1_nPA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1606075403577?e=1749686400&v=beta&t=GiIac4VXJNqeTOfkf4lQV5jTTRb7WIW-8F3J6U_207U
+  email             : alberto.labarga@gmail.com
+  github            : alabarga
+  instagram         : alabarga
+  linkedin          : albertolabarga
+  twitter           : alabarga
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
 #  behance           : your_username
 # dribbble          : your_username
-  email             : alberto.labarga@gmail.com
-#  facebook          : your_username
-  github            : alabarga
-# gitlab            : your_username
-  instagram         : alabarga
-# kaggle            : your_username
-  linkedin          : albertolabarga
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : alabarga
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
-
+# kaggle            : your_username
+# gitlab            : your_username
+#  facebook          : your_username
 
 ### Posts ###
 permalink: /blog/:title
@@ -77,7 +75,7 @@ analytics:
 # See https://www.buymeacoffee.com/
 buymeacoffee:
   enabled: false
-  username: your_username
+  username: alabarga
   color: "#007bff"
   message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
   description: "Support me on Buy me a coffee!"
@@ -90,11 +88,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"

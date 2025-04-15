@@ -52,7 +52,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-
+  talks:
+    output: true
+    permalink: /talks/:name
 
 ### Posts ###
 permalink: /blog/:title
@@ -61,7 +63,7 @@ permalink: /blog/:title
 disqus:
   shortname: your-short-name-disqus                     # Your website Shortname on disqus
   comments: false                                      # Set to true to enable disqus comments
-  
+
 ### Analytics ###
 analytics:
   enabled: false                                        # Set true to enable analytics

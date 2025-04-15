@@ -46,24 +46,22 @@ author:
 # gitlab            : your_username
 #  facebook          : your_username
 
-### Posts ###
-permalink: /blog/:title
-
 
 ### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
 
+
+### Posts ###
+permalink: /blog/:title
 
 ### Disqus ###
 disqus:
   shortname: your-short-name-disqus                     # Your website Shortname on disqus
-
-
+  comments: false                                      # Set to true to enable disqus comments
+  
 ### Analytics ###
 analytics:
   enabled: false                                        # Set true to enable analytics

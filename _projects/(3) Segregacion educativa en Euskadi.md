@@ -1,7 +1,7 @@
 ---
 name: Segregacion educativa en Euskadi
 tools: [Carto, Datawrapper]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+image: https://github.com/alabarga/alabarga.github.io/blob/main/_img/segregacion.png?raw=true
 description: Para estudiar la desigualdad entre las redes pública y privado-concertada de centros educativos en Euskadi hemos partido de los datos contenidos en el informe La educación en Euskadi 2013-2015 del Consejo Escolar de Euskadi. Hemos tomado los indicadores por zonas escolares de alumnado extranjero, alumnado becario de material escolar y de comedor para que nos ayuden a entender las diferencias entre las redes.
 external_url: https://lab.montera34.com/segregacionescolar/
 ---

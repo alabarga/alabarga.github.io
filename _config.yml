@@ -93,7 +93,11 @@ defaults:
       type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
-
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "page"
 
 ### Exclude from processing ###
 exclude:

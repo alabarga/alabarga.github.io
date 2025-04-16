@@ -11,11 +11,11 @@
     {%- assign project_desc  = talk.description -%}
     {%- assign project_tools = talk.tools -%}
 
-    {%- if project.external_url -%}
-      {%- assign project_url = project.external_url -%}
+    {%- if talk.external_url -%}
+      {%- assign project_url = talk.external_url -%}
       {%- assign external    = true -%}
     {%- else -%}
-      {%- assign project_url = project.url | relative_url -%}
+      {%- assign project_url = talk.url | relative_url -%}
       {%- assign external    = false -%}
     {%- endif -%}
 

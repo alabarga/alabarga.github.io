@@ -1,17 +1,20 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Head of Research Data, Barcelona Supercomputing Center, Spain
+  from: 2019
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Creating a data research collaborative environment with the mechanisms and resources to make a real impact on the development of artificial intellligence tools for achieving the promises of personalized medicine in a context of real world evidence and data driven management of disease, from prevention to treatment
+- title: Phd in Artificial Intelligence, Public University of Navarra, Spain
+  from: 2019
+  to: 2024
+  description: My thesis is focused on the development of artificial intelligence tools for the analysis of real world evidence in the context of personalized medicine. I am working on the development of a platform for the analysis of real world evidence in the context of personalized medicine, with a focus on the use of machine learning and natural language processing techniques to extract insights from large and complex datasets.
+- title: Data Analytics Lead teacher, Ironhack, Barcelona
+  from: 2019
+  to: 2024
+  description: Teaching Data Analytics and Machine Learning in the Data Analytics Bootcamp, covering from Python programming, SQL and databases, data science, data visualization, machine learning and deep learning
+- title: Data Science and visualization teacher, Universidad Oberta de Catalunya, Barcelona
+  from: 2012
+  to: 2023
+  description: Teaching Data Science and visualization in the Data Science Master, covering from Python programming, SQL and databases, data science, data visualization, machine learning and deep learning
+- title: Open Knowledge Foundation, Secretary of the Board, Spain
+  from: 2015
+  to: 2017
+  description: Promoting open data and open knowledge in Spain, with a focus on the use of open data for social impact and the development of open data policies and initiatives

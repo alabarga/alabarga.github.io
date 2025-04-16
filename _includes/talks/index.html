@@ -1,0 +1,26 @@
+
+<div class="card-columns m-3 mt-5">
+
+  <!-- Talks -->
+  {% for talk in site.talks %}
+
+    {%- assign project_type  = "local" -%}
+    {%- assign project_id    = talk.name | slugify -%}
+    {%- assign project_img   = talk.image -%}
+    {%- assign project_name  = talk.name -%}
+    {%- assign project_desc  = talk.description -%}
+    {%- assign project_tools = talk.tools -%}
+
+    {%- if project.external_url -%}
+      {%- assign project_url = project.external_url -%}
+      {%- assign external    = true -%}
+    {%- else -%}
+      {%- assign project_url = project.url | relative_url -%}
+      {%- assign external    = false -%}
+    {%- endif -%}
+
+    {% include talks/talk-card.html %}
+
+  {% endfor %}
+
+</div>
